@@ -2,6 +2,7 @@
 body{
     max-width: 1440px;
     margin: 0 auto;
+    background-color:  #ececec;
 }
 
 .search{
@@ -118,18 +119,30 @@ color: #FFFFFF;
 .categorie{
   font-size: 32px;
   font-weight: 600;
-  color: #093674;  
+  color: #093674; 
+  margin-top: 20px;
 }
 .Popular-categorie{
     border-radius: 10px;
     background-color: #F2FCE4;
     padding: 20px;
     color: #093674;
-    margin-bottom: 10px;
+    width: 141px;
+    height: 180px;
+   
 }
 .Popular-categories{
    display: grid;
    grid-template-columns: repeat(8,1fr);
    gap: 20px;
    text-align: center;
+   margin-bottom: 20px;
+}
+.Popular-categorie img{
+    
+    width: 90px;
+    height: 80px;
+    object-fit: contain;
+
+
 }
