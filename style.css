@@ -152,6 +152,7 @@ color: #FFFFFF;
    display: flex;
    justify-content: space-between;
    gap: 20px;
+   margin: 50px auto;
 }
 
 .banner-card{
@@ -244,4 +245,48 @@ color: #222222;
  font-size: 18px;
     color: #FFFFFF;
     padding: 5px;
+}
+
+
+/* 4th section */
+.black-deasl{
+    display: flex;
+    justify-content: space-around;
+    background-color: #70A6FF;
+    border-radius: 16px;
+    height: 220px;
+    margin: 50px 0;
+   
+}
+.banner-img-deasl{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.deal h3{
+font-size: 40px;
+color: white;
+
+
+}
+.deal h2{
+   font-size: 56px;
+   font-weight: 700;
+   color: #FFFFFF;
+   
+   
+}
+.banner-deasl-img{
+     display: flex;
+    align-items: center;
+
+}
+
+.banner-deasl-img img{
+  width: 280px;
+  height: 210px;
+  margin-top: 10px;
+
 }
