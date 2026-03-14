@@ -2,6 +2,7 @@ body {
     max-width: 1700px;
     margin: 0 auto;
     background-color: #ececec;
+    font-family: sans-serif;
 }
 
 .search-form {
@@ -241,7 +242,7 @@ p {
     background-color: white;
     color: #0083E2;
     border: 1px solid white;
-    
+
 
 }
 
@@ -426,24 +427,26 @@ p {
 
 /* 6th section */
 .popular-brand-card {
-   
+
     background-repeat: no-repeat;
     background-size: cover;
     height: 232px;
     padding: 20px;
     position: relative;
     border-radius: 16px;
-   
+
 }
 
-.brand-card-1{
- background-image: url(./davorron/full-shot-young-woman-spending-time-home\ 1.png);
+.brand-card-1 {
+    background-image: url(./davorron/full-shot-young-woman-spending-time-home\ 1.png);
 }
-.brand-card-2{
- background-image: url(./davorron/woman-wore-orange-gloves-planted-trees-house\ 1.png);
+
+.brand-card-2 {
+    background-image: url(./davorron/woman-wore-orange-gloves-planted-trees-house\ 1.png);
 }
-.brand-card-3{
- background-image: url(https://storage.googleapis.com/gd-prod/images/be80d389-c05f-437e-b435-40ca6030fa42.799a99c1196c2fd4.webp);
+
+.brand-card-3 {
+    background-image: url(https://storage.googleapis.com/gd-prod/images/be80d389-c05f-437e-b435-40ca6030fa42.799a99c1196c2fd4.webp);
 }
 
 .dyson {
@@ -452,12 +455,13 @@ p {
     justify-content: space-between;
     gap: 15px;
     position: absolute;
-    bottom: 10px;    
+    bottom: 10px;
     width: 90%;
-    
+
 }
-.brand-logo{
-     backdrop-filter: blur(10px);
+
+.brand-logo {
+    backdrop-filter: blur(10px);
     flex-grow: 1;
     background-color: rgba(255, 255, 255, 0.8);
     padding: 16px 20px;
@@ -467,8 +471,9 @@ p {
     font-style: italic;
     text-transform: uppercase;
 }
-.brand-details{
-      backdrop-filter: blur(10px);
+
+.brand-details {
+    backdrop-filter: blur(10px);
     flex-grow: 1;
     background-color: #FFFFFF59;
     padding: 8px;
@@ -477,7 +482,7 @@ p {
 }
 
 .brand-details h2 {
-   margin: 0;
+    margin: 0;
     color: black;
     font-size: 12px;
     font-weight: 500;
@@ -498,59 +503,274 @@ p {
 
 /* 7th section */
 
-
-.top-deals-cards{
+.top-deals-cards {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 10px;
-    margin-bottom: 100px;
 }
-.top-deals-card img{
-    height: 138px;
-    width: 80%;
-}
-.top-deals-card{
-    height: 289px;
-    border: 1px solid white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px 30px;
-    background-color: white;
+
+.top-deals-card {
+    border: 2px solid white;
     border-radius: 16px;
 }
-.top-deals-card h3{
+
+.top-deals-card h3 {
     font-size: 18px;
     font-weight: 600;
     color: #222222;
+    padding: 20px;
+
 }
-.prices span{
-    font-size: 18px;
+
+.top-deals-card span {
+    font-size: 24px;
     font-weight: 600;
     color: #0083E2;
 }
-.prices del{
-    font-size: 14px;
-    font-weight: 500;
-    color: #ADADAD;
+
+.top-deals-card h3 {
+    margin-top: 15px;
+    padding: 0 20px;
+    font-size: 20px;
+    line-height: 30px;
 }
-.logo-btn{
-    display: flex;
-    align-items: center;
-   gap: 50px;
-}
-.button{
-   font-size: 16px;
-   font-weight: 600;
-    padding: 0 10px;
-    background-color: #0083E2;
-    border-radius: 8px;
-    width: 90px;
-    height: 38px;
-    cursor: pointer;
-    text-align: center;
+
+.discount {
+    padding: 2px 20px;
+    height: 30px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(250, 83, 61);
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    position: absolute;
+    color: white;
+    font-weight: 500;
+
+}
+
+.top-deals-card-img {
+    position: relative;
+}
+
+.top-deals-card-img img {
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.product-card-title {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+
+.product-price {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 0px 10px;
+}
+
+.product-price del {
+    font-size: 16px;
+    font-weight: 500;
+    color: grey;
+}
+
+.top-deals-icon-btn {
+    display: flex;
+    align-items: center;
+}
+
+.add {
+    border: none;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: black;
+    font-size: 16px;
+    background-color: #2FB6ED;
+    width: 130px;
+    color: white;
+    padding: 10px;
+
+}
+
+.add span {
+    color: white;
+
+}
+
+.add:hover {
+    background-color: #0083E2;
+}
+
+.top-deals-card-price-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.top-deals-card-discount {
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+/* 8th section */
+.top-picks {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.top-pick-img {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.top-pick-img div img {
+    height: 130px;
+    padding: 10px;
+
+
+}
+
+.top-pick {
+    border: 2px solid red;
+    height: 328px;
+}
+
+.top-pick h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #222222;
+    text-indent: 10px;
+    padding: 10px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #2FB6ED;
+    border-radius: 50%;
+    background-color: white;
+    color: #2FB6ED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    body {
+        padding: 0 20px;
+    }
+
+    .search-form {
+        display: none;
+
+    }
+
+
+    .logo {
+        width: 100px;
+        height: 30px;
+        margin: 0px;
+        object-fit: contain;
+        margin-right: 40px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 6px;
+        font-weight: 400;
+        width: 64px;
+    }
+
+    .nab-icon button img {
+        width: 10px;
+
+    }
+
+    .nab-icon {
+        gap: 5px;
+    }
+
+}
+
+/* teblet  */
+
+@media screen and (max-width: 768px) {
+    body {
+        padding: 0 20px;
+    }
+
+    .become-seller-btn {
+        display: none;
+    }
+
+    .logo {
+        width: 160px;
+        height: 34px;
+        margin: 0px;
+        object-fit: contain;
+        margin-right: 40px;
+    }
+
+    .nab-icon button img {
+        width: 25px;
+
+    }
+    .nab-icon {
+        gap: 5px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    body {
+        padding: 0px 20px;
+    }
+     .logo {
+        width: 160px;
+        height: 34px;
+        margin: 0px;
+        object-fit: contain;
+        margin-right: 40px;
+    }
+    .become-seller-btn{
+        padding: 11px 8px;
+        margin-right: 10px;
+
+    }
+
+    .nab-icon {
+        gap: 5px;
+    }
+      .btn {
+        font-size: 14px;
+        padding: 8px;
+        font-weight: 400;
+        width: 64px;
+    }
 }
