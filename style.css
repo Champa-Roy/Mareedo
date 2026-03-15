@@ -684,12 +684,9 @@ p {
     body {
         padding: 0 20px;
     }
-
     .search-form {
         display: none;
-
     }
-
     .logo {
         width: 100px;
         height: 30px;
@@ -697,27 +694,21 @@ p {
         object-fit: contain;
         margin-right: 30px;
     }
-
     .btn {
         font-size: 14px;
         padding: 6px;
         font-weight: 400;
         width: 64px;
     }
-
     .nab-icon button img {
         width: 10px;
-
     }
-
     .nab-icon {
         gap: 5px;
     }
-
     .categorie {
         font-size: 20px;
     }
-
     .popular-categories {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -742,11 +733,9 @@ height: 35px;
 .shop-look h2{
     font-size: 20px;
 }
-
 .popular-brand-cards{
      display: grid;
     grid-template-columns: repeat(1, 1fr);
-    
 }
 .popular-brand-card{
     height: 150px;
@@ -760,6 +749,39 @@ height: 35px;
     font-size: 20px;
     font-weight: 700;
 }
+.top-deals-cards{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top-deals-card{
+    width: 350px;  
+}
+.top-deals-card h3 {
+    font-size: 16px;
+}
+.top-deals-card span {
+    font-size: 18px;
+}
+.product-price del {
+    font-size: 12px;
+}
+.top-deals-icon-btn button{
+    padding: 5px 10px;
+}
+.add span {
+   font-size: 14px;
+}
+.add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+}
+
 }
 
 
@@ -846,6 +868,36 @@ height: 35px;
     font-size: 20px;
     font-weight: 700;
 }
+.top-deals-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.top-deals-card{
+    width: 350px;
+}
+.top-deals-card h3 {
+    font-size: 16px;
+}
+.top-deals-card span {
+    font-size: 18px;
+}
+.product-price del {
+    font-size: 12px;
+}
+.top-deals-icon-btn button{
+    padding: 5px 10px;
+}
+.add span {
+   font-size: 14px;
+}
+.add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+}
+
 }
 
 
@@ -902,7 +954,7 @@ height: 35px;
 }
 .popular-brand-cards{
      display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
 .popular-brand-card{
     height: 150px;
@@ -920,7 +972,36 @@ font-weight: 700;
     font-size: 8px; 
     font-weight: 700;
 }
+.top-deals-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  
+    padding: 20px; 
 }
+}
+.top-deals-card h3 {
+    font-size: 16px;
+}
+.top-deals-card span {
+    font-size: 18px;
+}
+.product-price del {
+    font-size: 12px;
+}
+.top-deals-icon-btn button{
+    padding: 5px 10px;
+}
+.add span {
+   font-size: 14px;
+}
+.add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+}
+
+
 
 
 
