@@ -743,6 +743,23 @@ height: 35px;
     font-size: 20px;
 }
 
+.popular-brand-cards{
+     display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+}
+.popular-brand-card{
+    height: 150px;
+}
+.brand-logo{
+    padding: 10px 10px;
+    width: 30px;
+    font-size: 12px;
+}
+.section-title{
+    font-size: 20px;
+    font-weight: 700;
+}
 }
 
 
@@ -811,7 +828,24 @@ height: 35px;
     padding: 0px 5px;
 height: 35px;
 }
-
+.popular-brand-cards{
+     display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+.popular-brand-card{
+    height: 150px;
+    
+}
+.brand-logo{
+    padding: 10px 10px;
+    width: 30px;
+    font-size: 12px;
+}
+.section-title{
+    font-size: 20px;
+    font-weight: 700;
+}
 }
 
 
@@ -852,17 +886,13 @@ height: 35px;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
     }
-
-    
 .shop-img img{
     width: 160px;
     height: 160px;
 }
-
 .shops{
      display: grid;
     grid-template-columns: repeat(4, 1fr);
-    
 }
 .view{
     width: 120px;
@@ -870,8 +900,26 @@ height: 35px;
     padding: 0px 5px;
 height: 35px;
 }
-
-
+.popular-brand-cards{
+     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.popular-brand-card{
+    height: 150px;
+}
+.brand-logo{
+    padding: 10px 10px;
+    width: 30px;
+    font-size: 12px;
+}
+.brand-details h2{
+font-size: 8px;
+font-weight: 700;
+}
+.brand-details p{
+    font-size: 8px; 
+    font-weight: 700;
+}
 }
 
 
@@ -897,5 +945,8 @@ height: 35px;
     width: 150px;
     height: 150px;
 }
+.popular-brand-card{
+    height: 130px;
    
+}
 }
